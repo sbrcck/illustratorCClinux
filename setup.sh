@@ -64,7 +64,7 @@ function read_input() {
         read -p "[choose an option]$ " choose
         if [[ "$choose" =~ (^[1-5]$) ]];then
             break
-        fi
+        if
         warning "choose a number between 1 to 5"
     done
 
